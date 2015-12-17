@@ -39,7 +39,7 @@ Important:  Make sure that you have a well set path for the source path and dest
  
 ***Performing a backup to NAS***
 
-1. Run: ruby backup-managerS3.rb
+1. Run: ruby backup-managerNAS.rb
 2. Backup all files: ruby backup-managerNAS.rb all --time 10
 3. Backup specific virtual machine: ruby backup-managerNAS.rb name unic_name for example: ruby backup-managerNAS.rb name Win8.1
 
