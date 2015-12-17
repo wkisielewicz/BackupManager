@@ -31,7 +31,7 @@ end
 
 def backup_specific(name)
   data = PATHS.map.select{|x|  x[:unic_name]==name ? true : false}
-  system("duplicity #{data[0][:source]} #{data[0][:destination]}  --progress ")
+  system("duplicity #{data[0][:source]} #{data[0][:destination]}  --progress --no-encryption ")
   true
 end
 
