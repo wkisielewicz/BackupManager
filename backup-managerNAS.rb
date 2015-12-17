@@ -1,24 +1,26 @@
 #duplicity /media/kisiel/Data/VirtualBox\ VMs s3+http://backup-virtualmachines-protonred
 require 'optparse'
 #CONFIG BEGIN
-PATHS=[#{:source =>"'/media/kisiel/Data/VirtualBox\ VMs/Build_'", :destination =>"file://#{ENV['HOME']}/NAS/backups/Build_",  :unic_name =>"Build"},
-       #{:source =>"'/media/kisiel/Data/VirtualBox\ VMs/FirebirdUbuntuTest'", :destination => "file://#{ENV['HOME']}/NAS/backups/FirebirdUbuntuTest", :unic_name =>"FirebirdUbuntuTest"},
-       #{:source =>"'/media/kisiel/Data/VirtualBox\ VMs/oracle-linux-data'", :destination =>"file://#{ENV['HOME']}/NAS/backups/oracle-linux-data", :unic_name =>"oracle-linux-data"},
-       #{:source =>"'/media/kisiel/Data/VirtualBox\ VMs/Vista'", :destination =>"file://#{ENV['HOME']}/NAS/backups/Vista", :unic_name =>"Vista"},
-       #{:source =>"'/media/kisiel/Data/VirtualBox\ VMs/Win7'", :destination =>"file://#{ENV['HOME']}/NAS/backups/Win7", :unic_name =>"Win7"},
-       #{:source =>"'/media/kisiel/Data/VirtualBox\ VMs/Win8'", :destination =>"file://#{ENV['HOME']}/NAS/backups/Win8", :unic_name =>"Win8"},
-       #{:source =>"'/media/kisiel/Data/VirtualBox\ VMs/Win8.1'", :destination =>"file://#{ENV['HOME']}/NAS/backups/Win8.1", :unic_name =>"Win8.1"},
-       #{:source =>"'/media/kisiel/Data/VirtualBox\ VMs/WindowsServer2003'", :destination =>"file://#{ENV['HOME']}/NAS/backups/WinServer2003", :unic_name =>"WindowsServer2003"},
-       #{:source =>"'/media/kisiel/Data/VirtualBox\ VMs/WindowsServer2012'", :destination =>"file://#{ENV['HOME']}/NAS/backups/WindowsServer2012", :unic_name =>"WindowsServer2012"},
-       #{:source =>"'/media/kisiel/Data/VirtualBox\ VMs/WinServer2008'", :destination =>"file://#{ENV['HOME']}/NAS/backups/WinServer2008", :unic_name =>"winServer2008"},
-       #{:source =>"'/media/kisiel/Data/virtual\ disc\ linux\ oracle'", :destination =>"file://#{ENV['HOME']}/NAS/backups/oracle", :unic_name =>"virtual-disc-linux-oracle"},
-       #{:source =>"'/home/kisiel/VirtualBox\ VMs/oracle-linux'", :destination =>"file://#{ENV['HOME']}/NAS/backups/oracle-linux", :unic_name =>"oracle-linux"},
-       {:source =>"'/media/kisiel/Data/VirtualBox\ VMs/Win8.1_Build'", :destination =>"file://#{ENV['HOME']}/NAS/backups/Win8.1_Build", :unic_name =>"Win8.1_Build"},
-]
+
+PATHS=[{:source =>"'/media/kisiel/Data/VirtualBox\ VMs/FirebirdUbuntuTest'", :destination =>"file://#{ENV['HOME']}/NAS/backups/FirebirdUbuntuTest", :unic_name =>"FirebirdUbuntuTest"},
+       {:source =>"'/media/kisiel/Data/VirtualBox\ VMs/oracle-linux-data'", :destination =>"file://#{ENV['HOME']}/NAS/backups/oracle-linux-data", :unic_name =>"oracle-linux-data"},
+       {:source =>"'/media/kisiel/Data/VirtualBox\ VMs/Win8.1'", :destination =>"file://#{ENV['HOME']}/NAS/backups/Win8.1", :unic_name =>"Win8.1"},
+       {:source =>"'/media/kisiel/Data/VirtualBox\ VMs/WindowsServer2012'", :destination =>"file://#{ENV['HOME']}/NAS/backups/WindowsServer2012", :unic_name =>"WindowsServer2012"},
+       {:source =>"'/media/kisiel/Data/VirtualBox\ VMs/WinServer2008'", :destination =>"file://#{ENV['HOME']}/NAS/backups/WinServer2008", :unic_name =>"winServer"},
+       {:source =>"'/media/kisiel/Data/virtual\ disc\ linux\ oracle'", :destination =>"file://#{ENV['HOME']}/NAS/backups/virtual-disc-linux-oracle", :unic_name =>"virtual-disc-linux-oracle"},
+       {:source =>"'/home/kisiel/NAS/wioletta/VMs/Build'", :destination =>"file://#{ENV['HOME']}/NAS/backups/Build", :unic_name =>"Build"},
+       {:source =>"'/home/kisiel/NAS/wioletta/VMs/Oracle_Linux_32bit'", :destination =>"file://#{ENV['HOME']}/NAS/backups/Oracle_Linux_32bit", :unic_name =>"Oracle_Linux_32bit"},
+       {:source =>"'/home/kisiel/NAS/wioletta/VMs/Ubuntu32bit_Test_Installers'", :destination =>"file://#{ENV['HOME']}/NAS/backups/Ubuntu32bit_Test_Installers", :unic_name =>"Ubuntu32bit_Test_Installers"},
+       {:source =>"'/home/kisiel/NAS/wioletta/VMs/win8.1_oracle_test'", :destination =>"file://#{ENV['HOME']}/NAS/backups/win8.1_oracle_test", :unic_name =>"win8.1_oracle_test"},
+       {:source =>"'/home/kisiel/NAS/wioletta/VMs/Win8.1_12c_oracle'", :destination =>"file://#{ENV['HOME']}/NAS/backups/Win8.1_12c_oracle", :unic_name =>"Win8.1_12c_oracle"},
+       {:source =>"'/home/kisiel/NAS/wioletta/VMs/Win8.1_automate'", :destination =>"file://#{ENV['HOME']}/NAS/backups/Win8.1_automate", :unic_name =>"Win8.1_automate"},
+       {:source =>"'/home/kisiel/NAS/wioletta/VMs/Win8.1_server'", :destination =>"file://#{ENV['HOME']}/NAS/backups/Win8.1_server", :unic_name =>"Win8.1_server"},
+       {:source =>"'/home/kisiel/NAS/wioletta/VMs/Win8.1_Test_Firendly_name'", :destination =>"file://#{ENV['HOME']}/NAS/backups/Win8.1_Test_Firendly_name", :unic_name =>"Win8.1_Test_Firendly_name"}]
+
 
 #SET ENVIROMENT PASSHRASE export PASSPHRASE="password"
 
-#END CONFIG
+#END CONFIG  file://#{ENV['HOME']}/NAS/backups/
 
 
 
