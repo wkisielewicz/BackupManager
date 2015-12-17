@@ -2,8 +2,8 @@
 require 'optparse'
 #CONFIG BEGIN
 
-PATHS=[{:source =>"'/media/kisiel/Data/VirtualBox\ VMs/FirebirdUbuntuTest'", :destination =>"file://#{ENV['HOME']}/NAS/backups/FirebirdUbuntuTest", :unic_name =>"FirebirdUbuntuTest"},
-       {:source =>"'/media/kisiel/Data/VirtualBox\ VMs/oracle-linux-data'", :destination =>"file://#{ENV['HOME']}/NAS/backups/oracle-linux-data", :unic_name =>"oracle-linux-data"},
+PATHS=[{:source =>"'/home/kisiel/NAS/wioletta/VMs/FirebirdUbuntuTest'", :destination =>"file://#{ENV['HOME']}/NAS/backups/FirebirdUbuntuTest", :unic_name =>"FirebirdUbuntuTest"},
+       {:source =>"'/home/kisiel/NAS/wioletta/VMs/oracle-linux-data'", :destination =>"file://#{ENV['HOME']}/NAS/backups/oracle-linux-data", :unic_name =>"oracle-linux-data"},
        {:source =>"'/media/kisiel/Data/VirtualBox\ VMs/Win8.1'", :destination =>"file://#{ENV['HOME']}/NAS/backups/Win8.1", :unic_name =>"Win8.1"},
        {:source =>"'/media/kisiel/Data/VirtualBox\ VMs/WindowsServer2012'", :destination =>"file://#{ENV['HOME']}/NAS/backups/WindowsServer2012", :unic_name =>"WindowsServer2012"},
        {:source =>"'/media/kisiel/Data/VirtualBox\ VMs/WinServer2008'", :destination =>"file://#{ENV['HOME']}/NAS/backups/WinServer2008", :unic_name =>"winServer"},
