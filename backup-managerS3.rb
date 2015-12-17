@@ -61,7 +61,7 @@ case ARGV[0]
     puts "     Options"
     puts "      --time [seconds]"
     puts "     EXAMPLES:"
-    puts "      backup-manager.rb name my_copy_name"
-    puts "      backup-manager.rb all --time 10"
+    puts "      backup-managerS3.rb name my_copy_name"
+    puts "      backup-managerS3.rb all --time 10"
 
 end
