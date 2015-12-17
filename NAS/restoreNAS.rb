@@ -8,14 +8,14 @@ PATHS=[{:source =>"'file://#{ENV['HOME']}/NAS/backups/FirebirdUbuntuTest'", :des
        {:source =>"'file://#{ENV['HOME']}/NAS/backups/WindowsServer2012'", :destination =>"/media/kisiel/Data/restore_backups/VirtualBox\ VMs/WindowsServer2012", :unic_name =>"WindowsServer2012"},
        {:source =>"'file://#{ENV['HOME']}/NAS/backups/WinServer2008'", :destination =>"/media/kisiel/Data/restore_backups/VirtualBox\ VMs/WinServer2008", :unic_name =>"winServer"},
        {:source =>"'file://#{ENV['HOME']}/NAS/backups/virtual-disc-linux-oracle'", :destination =>"/media/kisiel/Data/restore_backups/virtual\ disc\ linux\ oracle", :unic_name =>"virtual-disc-linux-oracle"},
-       {:source =>"'file://#{ENV['HOME']}/NAS/backups/Build", :destination =>"/home/kisiel/NAS/restore_backups/wioletta/VMs/Build'", :unic_name =>"Build"},
-       {:source =>"'file://#{ENV['HOME']}/NAS/backups/Oracle_Linux_32bit'", :destination =>"/home/kisiel/NAS/restore_backups/wioletta/VMs/Oracle_Linux_32bit", :unic_name =>"Oracle_Linux_32bit"},
-       {:source =>"'file://#{ENV['HOME']}/NAS/backups/Ubuntu32bit_Test_Installers'", :destination =>"/home/kisiel/NAS/restore_backups/wioletta/VMs/Ubuntu32bit_Test_Installers", :unic_name =>"Ubuntu32bit_Test_Installers"},
-       {:source =>"'file://#{ENV['HOME']}/NAS/backups/win8.1_oracle_test'", :destination =>"/home/kisiel/NAS/restore_backups/wioletta/VMs/win8.1_oracle_test", :unic_name =>"win8.1_oracle_test"},
-       {:source =>"'file://#{ENV['HOME']}/NAS/backups/Win8.1_12c_oracle'", :destination =>"/home/kisiel/NAS/restore_backups/wioletta/VMs/Win8.1_12c_oracle", :unic_name =>"Win8.1_12c_oracle"},
-       {:source =>"'file://#{ENV['HOME']}/NAS/backups/Win8.1_automate'", :destination =>"/home/kisiel/NAS/restore_backups/wioletta/VMs/Win8.1_automate", :unic_name =>"Win8.1_automate"},
-       {:source =>"'file://#{ENV['HOME']}/NAS/backups/Win8.1_server'", :destination =>"/home/kisiel/NAS/restore_backups/wioletta/VMs/Win8.1_server", :unic_name =>"Win8.1_server"},
-       {:source =>"'file://#{ENV['HOME']}/NAS/backups/Win8.1_Test_Firendly_name'", :destination =>"/home/kisiel/NAS/restore_backups/wioletta/VMs/Win8.1_Test_Firendly_name", :unic_name =>"Win8.1_Test_Firendly_name"}]
+       {:source =>"'file://#{ENV['HOME']}/NAS/backups/Build", :destination =>"/home/kisiel/NAS/restore_backups/VMs/Build'", :unic_name =>"Build"},
+       {:source =>"'file://#{ENV['HOME']}/NAS/backups/Oracle_Linux_32bit'", :destination =>"/home/kisiel/NAS/restore_backups/VMs/Oracle_Linux_32bit", :unic_name =>"Oracle_Linux_32bit"},
+       {:source =>"'file://#{ENV['HOME']}/NAS/backups/Ubuntu32bit_Test_Installers'", :destination =>"/home/kisiel/NAS/restore_backups/VMs/Ubuntu32bit_Test_Installers", :unic_name =>"Ubuntu32bit_Test_Installers"},
+       {:source =>"'file://#{ENV['HOME']}/NAS/backups/win8.1_oracle_test'", :destination =>"/home/kisiel/NAS/restore_backups/VMs/win8.1_oracle_test", :unic_name =>"win8.1_oracle_test"},
+       {:source =>"'file://#{ENV['HOME']}/NAS/backups/Win8.1_12c_oracle'", :destination =>"/home/kisiel/NAS/restore_backups/VMs/Win8.1_12c_oracle", :unic_name =>"Win8.1_12c_oracle"},
+       {:source =>"'file://#{ENV['HOME']}/NAS/backups/Win8.1_automate'", :destination =>"/home/kisiel/NAS/restore_backups/VMs/Win8.1_automate", :unic_name =>"Win8.1_automate"},
+       {:source =>"'file://#{ENV['HOME']}/NAS/backups/Win8.1_server'", :destination =>"/home/kisiel/NAS/restore_backups/VMs/Win8.1_server", :unic_name =>"Win8.1_server"},
+       {:source =>"'file://#{ENV['HOME']}/NAS/backups/Win8.1_Test_Firendly_name'", :destination =>"/home/kisiel/NAS/restore_backups/VMs/Win8.1_Test_Firendly_name", :unic_name =>"Win8.1_Test_Firendly_name"}]
 
 
 #SET ENVIROMENT PASSHRASE export PASSPHRASE="password"
@@ -63,7 +63,7 @@ case ARGV[0]
     puts "     Options"
     puts "      --time [seconds]"
     puts "     EXAMPLES:"
-    puts "      backup-managerNAS.rb name my_copy_name"
-    puts "      backup-managerNAS.rb all --time 10"
+    puts "      restoreNAS.rb name my_copy_name"
+    puts "      restoreNAS.rb all --time 10"
 
 end
