@@ -4,7 +4,7 @@ require 'optparse'
 
 PATHS=[{:source =>"'file://#{ENV['HOME']}/NAS/backups/FirebirdUbuntuTest'", :destination =>"/home/kisiel/NAS/restore_backups/VMs/FirebirdUbuntuTest", :unic_name =>"FirebirdUbuntuTest"},
        {:source =>"'file://#{ENV['HOME']}/NAS/backups/oracle-linux-data'", :destination =>"/home/kisiel/NAS/restore_backups/VMs/oracle-linux-data", :unic_name =>"oracle-linux-data"},
-       {:source =>"'file://#{ENV['HOME']}/NAS/backups/Win8.1'", :destination =>"/media/kisiel/Data/restore_backups/VirtualBox\ VMs/Win8.1", :unic_name =>"Win8.1"},
+       {:source =>"'file://#{ENV['HOME']}/NAS/backups/Win8.1'", :destination =>"/home/kisiel/NAS/restore_backups/VMs/Win8.1", :unic_name =>"Win8.1"},
        {:source =>"'file://#{ENV['HOME']}/NAS/backups/WindowsServer2012'", :destination =>"/media/kisiel/Data/restore_backups/VirtualBox\ VMs/WindowsServer2012", :unic_name =>"WindowsServer2012"},
        {:source =>"'file://#{ENV['HOME']}/NAS/backups/WinServer2008'", :destination =>"/media/kisiel/Data/restore_backups/VirtualBox\ VMs/WinServer2008", :unic_name =>"winServer"},
        {:source =>"'file://#{ENV['HOME']}/NAS/backups/virtual-disc-linux-oracle'", :destination =>"/media/kisiel/Data/restore_backups/virtual\ disc\ linux\ oracle", :unic_name =>"virtual-disc-linux-oracle"},

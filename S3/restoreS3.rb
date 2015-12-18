@@ -4,7 +4,7 @@ require 'optparse'
 #CONFIG BEGIN
 PATHS=[{:source =>"'s3+http://backup-virtualmachines-protonred/VMs/FirebirdUbuntuTest'", :destination =>"/home/kisiel/NAS/restore_backups/VMs/FirebirdUbuntuTest", :unic_name =>"FirebirdUbuntuTest"},
        {:source =>"'s3+http://backup-virtualmachines-protonred/VMs/oracle-linux-data'", :destination =>"'/home/kisiel/NAS/restore_backups/VMs/oracle-linux-data'", :unic_name =>"oracle-linux-data"},
-       {:source =>"'s3+http://backup-virtualmachines-protonred/VirtualBoxVMs/Win8.1'", :destination =>"/media/kisiel/Data/restore_backups/VirtualBox\ VMs/Win8.1", :unic_name =>"Win8.1"},
+       {:source =>"'s3+http://backup-virtualmachines-protonred/VirtualBoxVMs/Win8.1'", :destination =>"/home/kisiel/NAS/restore_backups/VMs/Win8.1", :unic_name =>"Win8.1"},
        {:source =>"'s3+http://backup-virtualmachines-protonred/VirtualBoxVMs/WindowsServer2012'", :destination =>"/media/kisiel/Data/restore_backups/VirtualBox\ VMs/WindowsServer2012", :unic_name =>"WindowsServer2012"},
        {:source =>"'s3+http://backup-virtualmachines-protonred/VirtualBoxVMs/WinServer2008/media'", :destination =>"/kisiel/Data/restore_backups/VirtualBox\ VMs/WinServer2008", :unic_name =>"winServer2008"},
        {:source =>"'s3+http://backup-virtualmachines-protonred/virtual-disc-linux-oracle'", :destination =>"/media/kisiel/Data/restore_backups/virtual\ disc\ linux\ oracle", :unic_name =>"virtual-disc-linux-oracle"},
