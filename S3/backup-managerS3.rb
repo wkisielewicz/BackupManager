@@ -3,7 +3,7 @@ require 'optparse'
 #CONFIG BEGIN
 PATHS=[{:source =>"'/home/kisiel/NAS/wioletta/VMs/FirebirdUbuntuTest'", :destination =>"s3+http://backup-virtualmachines-protonred/VMs/FirebirdUbuntuTest", :unic_name =>"FirebirdUbuntuTest"},
        {:source =>"'/home/kisiel/NAS/wioletta/VMs/oracle-linux-data'", :destination =>"s3+http://backup-virtualmachines-protonred/VMs/oracle-linux-data", :unic_name =>"oracle-linux-data"},
-       {:source =>"'/home/kisiel/NAS/wioletta/VMs/'", :destination =>"s3+http://backup-virtualmachines-protonred/VMs/Win8.1", :unic_name =>"Win8.1"},
+       {:source =>"'/home/kisiel/NAS/wioletta/VMs/Win8.1'", :destination =>"s3+http://backup-virtualmachines-protonred/VMs/Win8.1", :unic_name =>"Win8.1"},
        {:source =>"'/media/kisiel/Data/VirtualBox\ VMs/WindowsServer2012'", :destination =>"s3+http://backup-virtualmachines-protonred/VMs/WindowsServer2012", :unic_name =>"WindowsServer2012"},
        {:source =>"'/media/kisiel/Data/VirtualBox\ VMs/WinServer2008'", :destination =>"s3+http://backup-virtualmachines-protonred/VirtualBoxVMs/WinServer2008", :unic_name =>"winServer"},
        {:source =>"'/media/kisiel/Data/virtual\ disc\ linux\ oracle'", :destination =>"s3+http://backup-virtualmachines-protonred/virtual-disc-linux-oracle", :unic_name =>"virtual-disc-linux-oracle"},
