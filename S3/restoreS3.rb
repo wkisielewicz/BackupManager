@@ -15,7 +15,13 @@ PATHS=[{:source =>"'s3+http://backup-virtualmachines-protonred/VMs/FirebirdUbunt
        {:source =>"'s3+http://backup-virtualmachines-protonred/VMs/Win8.1_12c_oracle'", :destination =>"/home/kisiel/NAS/restore_backups/VMs/Win8.1_12c_oracle", :unic_name =>"Win8.1_12c_oracle"},
        {:source =>"'s3+http://backup-virtualmachines-protonred/VMs/Win8.1_automate'", :destination =>"/home/kisiel/NAS/restore_backups/VMs/Win8.1_automate", :unic_name =>"Win8.1_automate"},
        {:source =>"'s3+http://backup-virtualmachines-protonred/VMs/Win8.1_server'", :destination =>"/home/kisiel/NAS/restore_backups/VMs/Win8.1_server", :unic_name =>"Win8.1_server"},
-       {:source =>"'s3+http://backup-virtualmachines-protonred/VMs/Win8.1_Test_Firendly_name'", :destination =>"/home/kisiel/NAS/restore_backups/VMs/Win8.1_Test_Firendly_name", :unic_name =>"Win8.1_Test_Firendly_name"}]
+
+       {:source =>"'s3+http://backup-virtualmachines-protonred/VMs/Windows_Server_sftp'", :destination =>"/home/kisiel/NAS/restore_backups/VMs/Windows_Server_sftp", :unic_name =>"Windows_Server_sftp"},
+       {:source =>"'s3+http://backup-virtualmachines-protonred/VMs/OracleLinux32bit'", :destination =>"/home/kisiel/NAS/restore_backups/VMs/OracleLinux32bit", :unic_name =>"OracleLinux32bit"},
+       {:source =>"'s3+http://backup-virtualmachines-protonred/VMs/OracleLinux32bit_hostname_test'", :destination =>"/home/kisiel/NAS/restore_backups/VMs/OracleLinux32bit_hostname_test", :unic_name =>"OracleLinux32bit_hostname_test"},
+       {:source =>"'s3+http://backup-virtualmachines-protonred/VMs/OracleLinux64bit'", :destination =>"/home/kisiel/NAS/restore_backups/VMs/OracleLinux64bit", :unic_name =>"OracleLinux64bit"},
+       {:source =>"'s3+http://backup-virtualmachines-protonred/VMs/Oracle_Linux_32bit'", :destination =>"/home/kisiel/NAS/restore_backups/VMs/Oracle_Linux_32bit", :unic_name =>"Oracle_Linux_32bit"}
+]
 
 
 # system("duplicity restore s3+http://backup-virtualmachines-protonred/VMs/Win8.1_automate /home/kisiel/NAS/restore_backups/Win8.1_automate")
