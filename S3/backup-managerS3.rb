@@ -14,7 +14,12 @@ PATHS=[{:source =>"'/home/kisiel/NAS/wioletta/VMs/Testy_instalek/FirebirdUbuntuT
        {:source =>"'/home/kisiel/NAS/wioletta/VMs/Oracle/Win8.1_12c_oracle'", :destination =>"s3+http://backup-virtualmachines-protonred/VMs/Oracle/Win8.1_12c_oracle", :unic_name =>"Win8.1_12c_oracle"},
        {:source =>"'/home/kisiel/NAS/wioletta/VMs/Testowe/Win8.1_automate'", :destination =>"s3+http://backup-virtualmachines-protonred/VMs/Testowe/Win8.1_automate", :unic_name =>"Win8.1_automate"},
        {:source =>"'/home/kisiel/NAS/wioletta/VMs/Testowe/Win8.1_server'", :destination =>"s3+http://backup-virtualmachines-protonred/VMs/Testowe/Win8.1_server", :unic_name =>"Win8.1_server"},
-       {:source =>"'/home/kisiel/NAS/wioletta/VMs/Testowe/Win8.1_server'", :destination =>"s3+http://backup-virtualmachines-protonred/VMs/Testowe/Windows_Server_sftp", :unic_name =>"Windows_Server_sftp"}]
+       {:source =>"'/home/kisiel/NAS/wioletta/VMs/Testowe/Windows_Server_sftp'", :destination =>"s3+http://backup-virtualmachines-protonred/VMs/Testowe/Windows_Server_sftp", :unic_name =>"Windows_Server_sftp"},
+       {:source =>"'/home/kisiel/NAS/wioletta/VMs/Testy_instalek/OracleLinux32bit'", :destination =>"s3+http://backup-virtualmachines-protonred/VMs/Testy_instalek/OracleLinux32bit", :unic_name =>"OracleLinux32bit"},
+       {:source =>"'/home/kisiel/NAS/wioletta/VMs/Testy_instalek/OracleLinux32bit_hostname_test'", :destination =>"s3+http://backup-virtualmachines-protonred/VMs/Testy_instalek/OracleLinux32bit_hostname_test", :unic_name =>"OracleLinux32bit_hostname_test"},
+       {:source =>"'/home/kisiel/NAS/wioletta/VMs/Testy_instalek/OracleLinux64bit'", :destination =>"s3+http://backup-virtualmachines-protonred/VMs/Testy_instalek/OracleLinux64bit", :unic_name =>"OracleLinux64bit"},
+       {:source =>"'/home/kisiel/NAS/wioletta/VMs/Testy_instalek/Oracle_Linux_32bit'", :destination =>"s3+http://backup-virtualmachines-protonred/VMs/Testy_instalek/Oracle_Linux_32bit", :unic_name =>"Oracle_Linux_32bit"}
+]
 
 # SET ENVIROMENT PASSHRASE export PASSPHRASE='password'
 
