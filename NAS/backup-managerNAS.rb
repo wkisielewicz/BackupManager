@@ -15,7 +15,13 @@ PATHS=[{:source =>"'/home/kisiel/NAS/wioletta/VMs/FirebirdUbuntuTest'", :destina
        {:source =>"'/home/kisiel/NAS/wioletta/VMs/Win8.1_12c_oracle'", :destination =>"file://#{ENV['HOME']}/NAS/backups/Oracle/Win8.1_12c_oracle", :unic_name =>"Win8.1_12c_oracle"},
        {:source =>"'/home/kisiel/NAS/wioletta/VMs/Win8.1_automate'", :destination =>"file://#{ENV['HOME']}/NAS/backups/Testowe/Win8.1_automate", :unic_name =>"Win8.1_automate"},
        {:source =>"'/home/kisiel/NAS/wioletta/VMs/Win8.1_server'", :destination =>"file://#{ENV['HOME']}/NAS/backups/Testowe/Win8.1_server", :unic_name =>"Win8.1_server"},
-       {:source =>"'/home/kisiel/NAS/wioletta/VMs/Win8.1_Test_Firendly_name'", :destination =>"file://#{ENV['HOME']}/NAS/backups/Testowe/Win8.1_Test_Firendly_name", :unic_name =>"Win8.1_Test_Firendly_name"}]
+       {:source =>"'/home/kisiel/NAS/wioletta/VMs/Testowe/Windows_Server_sftp'", :destination =>"file://#{ENV['HOME']}/NAS/backups/Testowe/Windows_Server_sftp", :unic_name =>"Windows_Server_sftp"},
+       {:source =>"'/home/kisiel/NAS/wioletta/VMs/Testy_instalek/OracleLinux32bit'", :destination =>"file://#{ENV['HOME']}/NAS/backups/Testy_instalek/OracleLinux32bit", :unic_name =>"OracleLinux32bit"},
+       {:source =>"'/home/kisiel/NAS/wioletta/VMs/Testy_instalek/OracleLinux32bit_hostname_test'", :destination =>"file://#{ENV['HOME']}/NAS/backups/Testy_instalek/OracleLinux32bit_hostname_test", :unic_name =>"OracleLinux32bit_hostname_test"},
+       {:source =>"'/home/kisiel/NAS/wioletta/VMs/Testy_instalek/OracleLinux64bit'", :destination =>"file://#{ENV['HOME']}/NAS/backups/Testy_instalek/OracleLinux64bit", :unic_name =>"OracleLinux64bit"},
+       {:source =>"'/home/kisiel/NAS/wioletta/VMs/Testy_instalek/Oracle_Linux_32bit'", :destination =>"file://#{ENV['HOME']}/NAS/backups/Testy_instalek/Oracle_Linux_32bit", :unic_name =>"Oracle_Linux_32bit"}
+
+]
 
 
 #SET ENVIROMENT PASSHRASE export PASSPHRASE="password"
